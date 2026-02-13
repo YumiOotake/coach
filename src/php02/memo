@@ -1,0 +1,7 @@
+見た目画面作成
+国を選択して送信できるように
+result画面で受け取り
+関数使ってその国の情報受け取り
+表示
+
+index、result、cities、search_city_timeでページわけ

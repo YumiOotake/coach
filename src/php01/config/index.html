@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <form action="./result.php" method="post" class="form">
+      <dl class="form__area">
+        <div class="form__list">
+          <dt class="form__label"><label for="name">お名前</label></dt>
+          <dd><input type="text" name="name" id="name" /></dd>
+        </div>
+
+        <div class="form__list">
+          <dt class="form__label"><label for="radio">ご希望商品</label></dt>
+          <div class="form__list--radio">
+          <dd>
+            <input type="radio" name="radio" value="A" id="a" checked />
+            <label for="a">Aセット</label>
+          </dd>
+          <dd>
+            <input type="radio" name="radio" value="B" id="b" />
+            <label for="b">Bセット</label>
+          </dd>
+          <dd>
+            <input type="radio" name="radio" value="C" id="c" />
+            <label for="c">Cセット</label>
+          </dd>
+          </div>
+        </div>
+        <div class="form__list">
+          <dt class="form__label"><label for="count">注文数</label></dt>
+          <dd>
+            <input type="number" id="count" name="count" />
+          </dd>
+        </div>
+      </dl>
+      <input type="submit" value="送信">
+    </form>
+  </body>
+</html>

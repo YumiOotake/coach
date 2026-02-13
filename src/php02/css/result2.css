@@ -1,0 +1,33 @@
+.result__inner {
+    max-width: 1230px;
+    margin: 0 auto;
+}
+.result {
+    display: flex;
+    justify-content: center;
+}
+.result__content {
+    width: 360px;
+    box-shadow: 0 0 5px gray;
+    margin: 10px;
+}
+.result__city-image {
+    width: 100%;
+    position: relative;
+    padding-top: 56.25%;
+}
+.result__city-img {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-50%);
+    object-fit: cover;
+
+}
+.result__city-text {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}

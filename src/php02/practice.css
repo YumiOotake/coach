@@ -1,0 +1,15 @@
+.image-area {
+    width: 400px;
+    position: relative;
+    padding-top: 56.25%;
+}
+.image-area__img {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-50%);
+    object-fit: cover;
+}
+/* padding-top で無理やり作った空白の部屋の中に、画像をどう配置するか */

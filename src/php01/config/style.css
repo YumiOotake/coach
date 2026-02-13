@@ -1,0 +1,14 @@
+.form {
+    width: 500px;
+    margin: 16px auto;
+}
+.form__label {
+    width: 100px;
+}
+.form__list {
+    display: flex;
+    margin-bottom: 16px;
+}
+.form__list--radio {
+    display: flex;
+}

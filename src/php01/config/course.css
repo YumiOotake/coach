@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    width: 500px;
+    margin: 16px auto;
+}
+.form__area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form__label {
+    width: 100px;
+}
+.form__input {
+    flex: 1;
+}
+.form__text {
+    width: 100%;
+    padding: 5px;
+}
