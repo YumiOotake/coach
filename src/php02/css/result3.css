@@ -1,0 +1,32 @@
+.result__content {
+    max-width: 1230px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.result-cards {
+    padding: 0 5px;
+}
+.result-card {
+    width: 340px;
+    box-shadow: 0 0 5px gray;
+}
+.result-card__image {
+    width: 340px;
+    position: relative;
+    padding-top: 56.25%;
+}
+.result-card__img {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-50%);
+    object-fit: cover;
+}
+.result-card__body {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
